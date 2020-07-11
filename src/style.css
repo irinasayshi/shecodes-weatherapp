@@ -1,0 +1,105 @@
+.main {
+  font-family: "Quicksand", sans-serif;
+  background: url(../images/background/sunset.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.weatherAppModule {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+  width: 60%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+
+.cityField {
+  width: 40%;
+  margin: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding: 4px;
+  background: none;
+}
+
+.citySearchButton {
+  height: auto;
+  width: 25px;
+  display: inline;
+  outline: none;
+  border: none;
+  margin: 0 0 0 5px;
+}
+
+.celciusOrFarenheitButtons {
+  margin-right: 5%;
+  float: right;
+}
+
+.buttonStandard {
+  display: inline-block;
+  outline: none;
+  border: 1px solid black;
+  background: none;
+  width: 25px;
+  height: 25px;
+}
+
+.buttonStandard:focus {
+  outline: none;
+}
+
+.tempButtonActive {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* parent div */
+
+.weatherTop {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherResults {
+  text-align: center;
+  width: 300px;
+}
+
+.fiveDayBottom {
+  min-height: 150px;
+  text-align: center;
+}
+
+.weatherIcon {
+  height: auto;
+  width: 50px;
+}
+
+.rowFiveDayWeather {
+  min-height: 55px;
+  line-height: 55px;
+}
+
+footer {
+  text-align: right;
+  padding: 0 15px 15px 0;
+  color: #fff;
+  font-size: 0.5em;
+}
+
+.name {
+  font-family: "Homemade Apple", cursive;
+}
+
+.modifyLink {
+  color: #fff;
+}
+
+.modifyLink:hover {
+  color: rgb(48, 211, 197);
+  text-decoration: none;
+}
