@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main">
+    <div class="weatherAppModule">
+      <form action="" method="get" class="citySearchContainer">
+        <div class="searchBar">
+          <input class="cityField" type="text" placeholder="Enter City" />
+          <input
+            class="citySearchButton"
+            type="image"
+            src="images/search.png"
+            alt="Submit"
+          />
+          <span class="celciusOrFarenheitButtons">
+            <button class="buttonStandard celciusButton">
+              C
+            </button>
+            <button class="buttonStandard tempButtonActive farenheitButton">
+              F
+            </button>
+          </span>
+        </div>
+      </form>
+      <div class="weatherTop">
+        <div class="weatherResults">
+          <div class="leftcolumn">
+            <h1 class="currentTempResult">
+              95° <span class="unitSelect">F</span>
+            </h1>
+          </div>
+          <div class="rightColumn">
+            <h4 class="cityResult">
+              Denver, CO
+            </h4>
+            <h4 class="dateResult">
+              Thu, July 9, 2020
+            </h4>
+            <h2>
+              Sunny
+            </h2>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="fiveDayBottom">
+        <div class="container">
+          <div class="row row1 rowFiveDayWeather">
+            <div class="col-5 columnDay dayOne">
+              Sunday
+            </div>
+            <div class="col columnIcon iconOne">
+              <img
+                class="weatherIcon"
+                src="images/icons/sun_cloud_lightning.png"
+                alt="weather"
+              />
+            </div>
+            <div class="col-5 columnTemp tempOne">
+              <span class="highTemp">95°</span>
+              <span class="unitSelect">F</span>
+              /
+              <span class="lowTemp">55°</span>
+              <span class="unitSelect">F</span>
+            </div>
+          </div>
+          <div class="row row2 rowFiveDayWeather">
+            <div class="col-5 columnDay dayTwo">
+              Monday
+            </div>
+            <div class="col columnIcon iconTwo">
+              <img
+                class="weatherIcon"
+                src="images/icons/rain_heavy.png"
+                alt="weather"
+              />
+            </div>
+            <div class="col-5 columnTemp tempTwo">
+              <span class="highTemp">95°</span>
+              <span class="unitSelect">F</span>
+              /
+              <span class="lowTemp">55°</span>
+              <span class="unitSelect">F</span>
+            </div>
+          </div>
+          <div class="row row3 rowFiveDayWeather">
+            <div class="col-5 columnDay dayThree">
+              Tuesday
+            </div>
+            <div class="col columnIcon iconThree">
+              <img
+                class="weatherIcon"
+                src="images/icons/sun.png"
+                alt="weather"
+              />
+            </div>
+            <div class="col-5 columnTemp tempThree">
+              <span class="highTemp">95°</span>
+              <span class="unitSelect">F</span>
+              /
+              <span class="lowTemp">55°</span>
+              <span class="unitSelect">F</span>
+            </div>
+          </div>
+          <div class="row row4 rowFiveDayWeather">
+            <div class="col-5 columnDay dayFour">
+              Wednesday
+            </div>
+            <div class="col columnIcon iconFour">
+              <img
+                class="weatherIcon"
+                src="images/icons/wind.png"
+                alt="weather"
+              />
+            </div>
+            <div class="col-5 columnTemp tempFour">
+              <span class="highTemp">95°</span>
+              <span class="unitSelect">F</span>
+              /
+              <span class="lowTemp">55°</span>
+              <span class="unitSelect">F</span>
+            </div>
+          </div>
+          <div class="row row5 rowFiveDayWeather">
+            <div class="col-5 columnDay dayFive">
+              Thursday
+            </div>
+            <div class="col columnIcon iconFive">
+              <img
+                class="weatherIcon"
+                src="images/icons/lightning.png"
+                alt="weather"
+              />
+            </div>
+            <div class="col-5 columnTemp tempFive">
+              <span class="highTemp">95°</span>
+              <span class="unitSelect">F</span>
+              /
+              <span class="lowTemp">55°</span>
+              <span class="unitSelect">F</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      This page was created by
+      <span class="name">
+        <a
+          class="modifyLink"
+          href="https://github.com/irinasayshi"
+          target="_blank"
+        >
+          Irina Gorelik
+        </a>
+      </span>
+    </footer>
+  </body>
+</html>
