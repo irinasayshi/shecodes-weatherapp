@@ -103,3 +103,40 @@ footer {
   color: rgb(48, 211, 197);
   text-decoration: none;
 }
+
+/************************************************************************************
+Responsive: change width when smaller than 800px
+*************************************************************************************/
+@media only screen and (max-width: 800px) {
+  .weatherAppModule {
+    width: 70%;
+  }
+}
+
+/************************************************************************************
+Responsive: change width when smaller than 800px
+*************************************************************************************/
+@media only screen and (max-width: 800px) {
+  .weatherAppModule {
+    width: 80%;
+  }
+}
+
+/************************************************************************************
+Responsive: change width when smaller than 600px
+*************************************************************************************/
+@media only screen and (max-width: 600px) {
+  .weatherAppModule {
+    width: 90%;
+  }
+}
+
+/************************************************************************************
+Responsive: change width when smaller than 534px
+*************************************************************************************/
+@media only screen and (max-width: 534px) {
+  .weatherAppModule {
+    width: 100%;
+    margin-top: 0;
+  }
+}
