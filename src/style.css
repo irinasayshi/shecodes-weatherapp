@@ -46,6 +46,12 @@
   height: 25px;
 }
 
+.buttonStandard:hover {
+  background: #000000;
+  color: #ffffff;
+  font-weight: 800;
+}
+
 .buttonStandard:focus {
   outline: none;
 }
@@ -53,6 +59,7 @@
 .tempButtonActive {
   background: #000000;
   color: #ffffff;
+  font-weight: 800;
 }
 
 /* parent div */
