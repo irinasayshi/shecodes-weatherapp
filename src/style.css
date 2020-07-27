@@ -7,20 +7,25 @@
 .weatherAppModule {
   background-color: rgba(255, 255, 255, 0.5);
   margin: auto;
-  width: 60%;
+  width: 480.6px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 10px 0;
 }
 
 .cityField {
-  width: 40%;
+  width: 180px;
   margin: 10px;
   border: none;
   border-bottom: 1px solid black;
   outline: none;
   padding: 4px;
   background: none;
+}
+
+.citySearchContainer {
+  width: 240px;
+  display: inline-block;
 }
 
 .citySearchButton {
@@ -33,6 +38,7 @@
 }
 
 .celciusOrFarenheitButtons {
+  margin-top: 10px;
   margin-right: 5%;
   float: right;
 }
@@ -109,33 +115,6 @@ footer {
 .modifyLink:hover {
   color: rgb(48, 211, 197);
   text-decoration: none;
-}
-
-/************************************************************************************
-Responsive: change width when smaller than 800px
-*************************************************************************************/
-@media only screen and (max-width: 800px) {
-  .weatherAppModule {
-    width: 70%;
-  }
-}
-
-/************************************************************************************
-Responsive: change width when smaller than 800px
-*************************************************************************************/
-@media only screen and (max-width: 800px) {
-  .weatherAppModule {
-    width: 80%;
-  }
-}
-
-/************************************************************************************
-Responsive: change width when smaller than 600px
-*************************************************************************************/
-@media only screen and (max-width: 600px) {
-  .weatherAppModule {
-    width: 90%;
-  }
 }
 
 /************************************************************************************

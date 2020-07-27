@@ -18,15 +18,16 @@
   </head>
   <body class="main">
     <div class="weatherAppModule">
-      <form action="" method="get" class="citySearchContainer">
-        <div class="searchBar">
-          <input class="cityField" type="text" placeholder="Enter City" />
+      <div class="searchBar">
+        <form action="" method="get" class="citySearchContainer" id="city-search">
+          <input class="cityField" id="user-input" type="text" placeholder="Enter City" />
           <input
             class="citySearchButton"
             type="image"
             src="images/search.png"
             alt="Submit"
           />
+        </form>
           <span class="celciusOrFarenheitButtons">
             <button class="buttonStandard celciusButton">
               C
@@ -35,22 +36,20 @@
               F
             </button>
           </span>
-        </div>
-      </form>
+      </div>
       <div class="weatherTop">
         <div class="weatherResults">
           <div class="leftcolumn">
             <h1 class="currentTempResult">
-              <span class="tempInCurrentUnit">95°</span>
+              <span class="tempInCurrentUnit">95</span>°
               <span class="unitSelect">F</span>
             </h1>
           </div>
           <div class="rightColumn">
-            <h4 class="cityResult">
+            <h4 id="city-result">
               Denver, CO
             </h4>
-            <h4 class="dateResult">
-              Thu, July 9, 2020
+            <h4 id="date-result">
             </h4>
             <h2>
               Sunny
@@ -73,10 +72,10 @@
               />
             </div>
             <div class="col-5 columnTemp tempOne">
-              <span class="highTemp tempInCurrentUnit">95°</span>
+              <span class="highTemp tempInCurrentUnit">85</span>°
               <span class="unitSelect">F</span>
               /
-              <span class="lowTemp tempInCurrentUnit">55°</span>
+              <span class="lowTemp tempInCurrentUnit">55</span>°
               <span class="unitSelect">F</span>
             </div>
           </div>
@@ -92,10 +91,10 @@
               />
             </div>
             <div class="col-5 columnTemp tempTwo">
-              <span class="highTemp tempInCurrentUnit">95°</span>
+              <span class="highTemp tempInCurrentUnit">85</span>°
               <span class="unitSelect">F</span>
               /
-              <span class="lowTemp tempInCurrentUnit">55°</span>
+              <span class="lowTemp tempInCurrentUnit">55</span>°
               <span class="unitSelect">F</span>
             </div>
           </div>
@@ -111,10 +110,10 @@
               />
             </div>
             <div class="col-5 columnTemp tempThree">
-              <span class="highTemp tempInCurrentUnit">95°</span>
+              <span class="highTemp tempInCurrentUnit">85</span>°
               <span class="unitSelect">F</span>
               /
-              <span class="lowTemp tempInCurrentUnit">55°</span>
+              <span class="lowTemp tempInCurrentUnit">55</span>°
               <span class="unitSelect">F</span>
             </div>
           </div>
@@ -130,10 +129,10 @@
               />
             </div>
             <div class="col-5 columnTemp tempFour">
-              <span class="highTemp tempInCurrentUnit">95°</span>
+              <span class="highTemp tempInCurrentUnit">85</span>°
               <span class="unitSelect">F</span>
               /
-              <span class="lowTemp tempInCurrentUnit">55°</span>
+              <span class="lowTemp tempInCurrentUnit">55</span>°
               <span class="unitSelect">F</span>
             </div>
           </div>
@@ -149,16 +148,17 @@
               />
             </div>
             <div class="col-5 columnTemp tempFive">
-              <span class="highTemp tempInCurrentUnit">95°</span>
+              <span class="highTemp tempInCurrentUnit">85</span>°
               <span class="unitSelect">F</span>
               /
-              <span class="lowTemp tempInCurrentUnit">55°</span>
+              <span class="lowTemp tempInCurrentUnit">55</span>°
               <span class="unitSelect">F</span>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div>hello</div>
     <footer>
       This page was created by
       <span class="name">
@@ -171,5 +171,6 @@
         </a>
       </span>
     </footer>
+    <script src=src/script.js></script>
   </body>
 </html>
